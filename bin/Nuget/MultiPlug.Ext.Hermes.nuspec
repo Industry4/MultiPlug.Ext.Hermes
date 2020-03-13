@@ -1,6 +1,17 @@
-# MultiPlug.Ext.Hermes
-
-* Functionality
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MultiPlug.Ext.Hermes</id>
+    <version>1.0.4</version>
+    <title>IPC-HERMES-9852 (The Hermes Standard) MultiPlug Extension</title>
+    <authors>4IR.UK</authors>
+    <owners>4IR.UK</owners>
+    <!--<licenseUrl></licenseUrl>-->
+    <projectUrl>https://github.com/Industry4/MultiPlug.Ext.Hermes</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Industry4/MultiPlug.Ext.Hermes/master/media/IPC-HERMES-9852-MULTIPLUG.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MultiPlug IPC HERMES 9852 Extension used for the transfer of PCB related data between manufacturing equipment on a electronics assembly line.</description>
+    <releaseNotes>* Functionality
 This Extension, with the use of MultiPlug.Ext.Networks, allows you to connect to Up-line and Down-line electronics production equipment that are also capable of communicating using the IPC-HERMES-9852 messaging standard (https://www.the-hermes-standard.info).
 
 The modes of operation are Pass Through and SMEMA Adaptor.
@@ -10,9 +21,6 @@ The Pass Through mode allows the creation of a Hermes man-in-the-middle to captu
 The SMEMA Adaptor mode (IPC-SMEMA-9851) requires additional hardware (available at https://www.4ir.uk/products/smema-hermes-adaptor/) to interface with the SMEMA I/O. This mode allows SMEMA equipment to be upgraded and prevents PCB data from being lost as a PCB moves along an assembly line.
 
 * Setup
-
-.. Read the Wiki above.
-
 1. Within MultiPlug.Ext.Networks, create a Client Socket for the Up-line machine and use its IP address and the default port 50101.
 2. Create a Socket Endpoint for the Down-line machine and use the default port 50101.
 3. For the Client Socket, subscribe to the Hermes Up-line message send event.
@@ -25,3 +33,17 @@ Setup for the SMEMA Adaptor mode will be documented with the adaptor instruction
 * Software License
 
 The Extension works under evaluation. To purchase a licence contact hello@industry4.uk (4IR.UK British Systems)
+
+* Changelog
+1.0.4 Progression Improvements
+1.0.2 Bug: Event names not being updated.
+1.0.1 First Release
+</releaseNotes>
+    <copyright>4IR.UK British Systems 2020</copyright>
+    <tags>ipc hermes 9852 IPC_Hermes_9852 IOT INDUSTRY_4.0 INDUSTRY 4.0 4IR M2M Edge_Computing</tags>
+    <dependencies>
+      <dependency id="MultiPlug.Core" version="2.2.60" />
+      <dependency id="MultiPlug.Ext.Networks" version="1.0.11" />
+    </dependencies>
+  </metadata>
+</package>
