@@ -1,6 +1,7 @@
 # MultiPlug.Ext.Hermes
 
-* Functionality
+## Functionality
+
 This Extension, with the use of MultiPlug.Ext.Networks, allows you to connect to Up-line and Down-line electronics production equipment that are also capable of communicating using the IPC-HERMES-9852 messaging standard (https://www.the-hermes-standard.info).
 
 The modes of operation are Pass Through and SMEMA Adaptor.
@@ -9,7 +10,7 @@ The Pass Through mode allows the creation of a Hermes man-in-the-middle to captu
 
 The SMEMA Adaptor mode (IPC-SMEMA-9851) requires additional hardware (available at https://www.4ir.uk/products/smema-hermes-adaptor/) to interface with the SMEMA I/O. This mode allows SMEMA equipment to be upgraded and prevents PCB data from being lost as a PCB moves along an assembly line.
 
-* Setup
+## Setup
 
 .. Read the Wiki above.
 
@@ -22,6 +23,6 @@ The SMEMA Adaptor mode (IPC-SMEMA-9851) requires additional hardware (available 
 
 Setup for the SMEMA Adaptor mode will be documented with the adaptor instructions.
 
-* Software License
+## Software License
 
 The Extension works under evaluation. To purchase a licence contact hello@industry4.uk (4IR.UK British Systems)
