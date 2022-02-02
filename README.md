@@ -26,3 +26,9 @@ Setup for the SMEMA Adaptor mode will be documented with the adaptor instruction
 ## Software License
 
 The Extension works under evaluation. To purchase a licence contact hello@industry4.uk (4IR.UK British Systems)
+
+## User Interface
+![](https://www.the-hermes-standard-smema-adaptor.info/images/hermes-smema-adaptor-user-interface.png)
+
+## Setup Interface
+![](https://www.the-hermes-standard-smema-adaptor.info/images/hermes-smema-adaptor-setup-interface.png)
