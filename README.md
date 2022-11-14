@@ -8,7 +8,7 @@ The modes of operation are Pass Through and SMEMA Adaptor:
 
 * The Pass Through mode allows the creation of a Hermes man-in-the-middle to capture message data which will include PCB (Printed Circuit Board) information.
 
-* The SMEMA Adaptor mode (IPC-SMEMA-9851) requires additional hardware (available at https://www.4ir.uk/products/smema-hermes-adaptor/) to interface with the SMEMA I/O. This mode allows SMEMA equipment to be upgraded and prevents PCB data from being lost as a PCB (printed circuit board) moves along an assembly line.
+* The SMEMA Adaptor mode (IPC-SMEMA-9851) requires an additional hardware Extension to interface with the SMEMA I/O, eg [MultiPlug.Ext.RasPi.GPIO](https://www.nuget.org/packages/MultiPlug.Ext.RasPi.GPIO/) or [MultiPlug.Ext.Brainboxes](https://www.nuget.org/packages/MultiPlug.Ext.Brainboxes/) . This mode allows SMEMA equipment to be upgraded and prevents PCB data from being lost as a PCB (printed circuit board) moves along an assembly line.
 
 ## More Information
 
