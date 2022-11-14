@@ -6,11 +6,11 @@ MultiPlug IPC HERMES 9852 Extension used for the transfer of PCB related data be
 
 This Extension, with the use of the [MultiPlug.Ext.Network.Sockets](https://www.nuget.org/packages/MultiPlug.Ext.Network.Sockets/) [MultiPlug Extension](https://www.multiplug.app/) allows you to connect to Upstream and Downstream electronics production equipment (SMT) that are capable of communicating using the IPC-HERMES-9852 ([The Hermes Standard](https://www.the-hermes-standard.info)) messaging standard.
 
-The modes of operation are Pass Through and SMEMA Adaptor:
+The modes of operation are Pass Through and SMEMA Gateway:
 
 * The Pass Through mode allows the creation of a Hermes man-in-the-middle to capture message data which will include PCB (Printed Circuit Board) information.
 
-* The SMEMA Adaptor mode (IPC-SMEMA-9851) requires an additional hardware Extension to interface with the SMEMA I/O, eg [MultiPlug.Ext.RasPi.GPIO](https://www.nuget.org/packages/MultiPlug.Ext.RasPi.GPIO/) or [MultiPlug.Ext.Brainboxes](https://www.nuget.org/packages/MultiPlug.Ext.Brainboxes/) . This mode allows SMEMA equipment to be upgraded and prevents PCB data from being lost as a PCB (printed circuit board) moves along an assembly line.
+* The SMEMA Gateway mode (IPC-SMEMA-9851) requires an additional hardware Extension to interface with the SMEMA I/O, eg [MultiPlug.Ext.RasPi.GPIO](https://www.nuget.org/packages/MultiPlug.Ext.RasPi.GPIO/) or [MultiPlug.Ext.Brainboxes](https://www.nuget.org/packages/MultiPlug.Ext.Brainboxes/) . This mode allows SMEMA equipment to be upgraded and prevents PCB data from being lost as a PCB (printed circuit board) moves along an assembly line.
 
 ## More Information
 
