@@ -1,5 +1,7 @@
 # MultiPlug.Ext.Hermes
 
+MultiPlug IPC HERMES 9852 Extension used for the transfer of PCB related data between manufacturing equipment on a electronics assembly line.
+
 ## Functionality
 
 This Extension, with the use of the [MultiPlug.Ext.Network.Sockets](https://www.nuget.org/packages/MultiPlug.Ext.Network.Sockets/) [MultiPlug Extension](https://www.multiplug.app/) allows you to connect to Upstream and Downstream electronics production equipment (SMT) that are capable of communicating using the IPC-HERMES-9852 ([The Hermes Standard](https://www.the-hermes-standard.info)) messaging standard.
