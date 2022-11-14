@@ -12,6 +12,7 @@ The modes of operation are Pass Through and SMEMA Adaptor:
 
 ## More Information
 
+* MultiPlug.Ext.Hermes is not a software development library.
 * [Read the Wiki](https://github.com/Industry4/MultiPlug.Ext.Hermes/wiki)
 
 ## Setup
