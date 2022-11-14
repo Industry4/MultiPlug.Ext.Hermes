@@ -34,7 +34,7 @@ The Extension works under a 60 minuate evaluation. To purchase a licence contact
 ![](https://user-images.githubusercontent.com/14904422/195608767-e408a82f-8f73-4e69-9c45-453246a12d6b.gif)
 
 ## User Interface
-![](https://www.the-hermes-standard-smema-adaptor.info/images/hermes-smema-adaptor-user-interface.png)
+![](https://www.smema-hermes-gateway.app/images/MultiPlug.Ext.Hermes.1.png)
 
 ## Setup Interface
-![](https://www.the-hermes-standard-smema-adaptor.info/images/hermes-smema-adaptor-setup-interface.png)
+![](https://www.smema-hermes-gateway.app/images/MultiPlug.Ext.Hermes.2.png)
