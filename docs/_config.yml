@@ -1,0 +1,4 @@
+remote_theme: pages-themes/slate@v0.2.0
+title: MultiPlug.Ext.Hermes
+description: The Hermes Standard Extension for MultiPlug
+show_downloads: true
