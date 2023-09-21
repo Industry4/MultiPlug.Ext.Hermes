@@ -4,7 +4,7 @@ MultiPlug IPC HERMES 9852 Extension used for the transfer of PCB related data be
 
 ## Functionality
 
-This Extension, with the use of the [MultiPlug.Ext.Network.Sockets](https://www.nuget.org/packages/MultiPlug.Ext.Network.Sockets/) [MultiPlug Extension](https://www.multiplug.app/) allows you to connect to Upstream and Downstream electronics production equipment (SMT) that are capable of communicating using the IPC-HERMES-9852 ([The Hermes Standard](https://www.the-hermes-standard.info)) messaging standard.
+This Extension, with the use of the [MultiPlug.Ext.Network.Sockets](https://www.nuget.org/packages/MultiPlug.Ext.Network.Sockets/) [MultiPlug Extension](https://www.multiplug.app/) allows you to connect to Upstream and Downstream electronics production equipment (SMT) that are capable of communicating using the IPC-HERMES-9852 messaging standard (https://www.the-hermes-standard.info).
 
 The modes of operation are Pass Through and SMEMA Gateway:
 
@@ -19,16 +19,17 @@ The modes of operation are Pass Through and SMEMA Gateway:
 
 ## Setup
 
-1. Within [MultiPlug.Ext.Network.Sockets](https://www.nuget.org/packages/MultiPlug.Ext.Network.Sockets/), create a Socket Client for the Upstream machine and use the Upstream's IP address and the default port 50101.
-2. Within the MultiPlug.Ext.Network.Sockets, create a Socket Endpoint for the Downstream machine and use the default port 50101.
-3. Within the MultiPlug.Ext.Network.Sockets Socket Client, subscribe to the MultiPlug.Ext.Hermes Upstream message send event.
-4. Within the MultiPlug.Ext.Network.Sockets Socket Endpoint, subscribe to MultiPlug.Ext.Hermes Downstream message send event.
-5. Within MultiPlug.Ext.Hermes Upstream settings, subscribe to the Client Socket read event.
-6. Within MultiPlug.Ext.Hermes Downstream settings, subscribe to the Socket Endpoint read event.
+1. Within Multiplug.Ext.Network.Sockets (https://www.nuget.org/packages/MultiPlug.Ext.Network.Sockets/), create a Client Socket for the Upstream machine and use its IP address and the default port 50101.
+2. Within Multiplug.Ext.Network.Sockets (https://www.nuget.org/packages/MultiPlug.Ext.Network.Sockets/), create a Socket Endpoint for the Downstream machine and use the default port 50101.
+3. Within Multiplug.Ext.Network.Sockets Client Socket, subscribe to the Hermes Upstream XML message send event, of MultiPlug.Ext.Hermes.
+4. Within Multiplug.Ext.Network.Sockets Socket Endpoint, subscribe to Herme Downstream XML message send event, of MultiPlug.Ext.Hermes.
+5. Within MultiPlug.Ext.Hermes Upstream settings, subscribe to the Client Socket read event, of Multiplug.Ext.Network.Sockets.
+6. Within MultiPlug.Ext.Hermes Downstream settings, subscribe to the Socket Endpoint read event, of Multiplug.Ext.Network.Sockets.
+7. Click Deploy within MultiPlug and the Event connections will be made.
 
-## Software License
+## Purchase a Software License
 
-The Extension works under a 60 minuate evaluation. To purchase a licence contact hello@4IR.UK (4IR.UK British Systems)
+This Extension works under a 60 minute evaluation. To purchase a licence visit: https://www.smartfactorydirect.com/multiplugexthermes-software-license
 
 ## Runtime Digital Twin Animation
 ![](https://user-images.githubusercontent.com/14904422/195608767-e408a82f-8f73-4e69-9c45-453246a12d6b.gif)
